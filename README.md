@@ -10,7 +10,7 @@ This Readme file describes how the run_analysis.R script works.
 3.Names of the column names for the 'X-train.txt' and 'X-test.txt' data sets are assigned descriptive variable names from 'features.txt' before merging to form the merged data set 'initmerge_train_test'. The Codebook gives the descriptive names in detail. Please refer to that.
 
 4.Extracts the variables/columns with mean and std measurements from the merged
-data set and create a subset('meanstd_complete1') as a result containing 10299 rows and 88 columns.
+data set and create a subset('meanstd_complete1') as a result containing 10299 rows and 81 columns.
 
 5.Assigns the activity labels from 'activity_labels.txt' to the column containing the activity ids from 'y_test.txt' and 'y_train.txt' in the subset 'meanstd_complete1' containing the extracted measurements of mean and std from the previous step.
 
